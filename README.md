@@ -1,7 +1,7 @@
 # Polished-Setup-a-simple-AD-lab-in-Azure-with-UI
 Menu driven, user friendly tool for setting up a simple AD lab in Azure.
 
-Simply save all these files in the same folder, then run 'Setup with a Menu.ps1' while your present working directory is the folder where everything is save.
+Simply save all these files in the same folder, then run 'Setup with a Menu.ps1' while your present working directory is the folder where everything is saved.
 Run each menu option in order, 1 through 6.
 The first one takes 10 - 15 minutes as it is creating & configuring everything in Azure. 
 The others take a few minutes each as they are only configuring the VMs.
