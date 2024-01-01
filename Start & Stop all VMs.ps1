@@ -13,7 +13,7 @@ mstsc /v: $PIP.IpAddress
 
 Function Stop-Lab
 {
-Stop-AzVM -ResourceGroupName ADLab -Name DC1 -Confirm
-Stop-AzVM -ResourceGroupName ADLab -Name DC2 -Confirm
-Stop-AzVM -ResourceGroupName ADLab -Name MemberServer -Confirm
+Stop-AzVM -ResourceGroupName ADLab -Name DC1 -Confirm -Force
+Stop-AzVM -ResourceGroupName ADLab -Name DC2 -Confirm -Force
+Stop-AzVM -ResourceGroupName ADLab -Name MemberServer -Confirm -Force
 }
